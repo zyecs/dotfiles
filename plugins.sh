@@ -20,6 +20,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 echo "Done."
 
+# zsh spaceship prompt
 echo "Now start install spaceship prompt"
 
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
