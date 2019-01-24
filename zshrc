@@ -2,7 +2,7 @@
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-#export ZSH="/Users/zye/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -70,8 +70,7 @@ plugins=(
   z
   #osx
   mvn
-  tmux
-  #python
+  #tmux
   #vscode
   zsh-autosuggestions
   zsh-syntax-highlighting
@@ -115,12 +114,6 @@ alias vi='vim'
 alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
-alias -s html=vi
-alias -s rb=vi
-alias -s py=vi
-alias -s c=vi
-alias -s cpp=vi
-alias -s java=vi
 
 alias cppcompile='c++ -std=c++11 -stdlib=libc++'
 alias gpo=git push origin
@@ -192,6 +185,7 @@ SPACESHIP_PROMPT_ORDER=(
   exit_code     # Exit code section
   char          # Prompt character
 )
+
 SPACESHIP_CHAR_SYMBOL="↳"
 SPACESHIP_CHAR_SUFFIX=" "
 SPACESHIP_CHAR_COLOR_SUCCESS=blue
